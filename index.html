@@ -472,17 +472,28 @@
               </li>
             </ul>
           </div>
-          <!--Subscribe to the newsletter-->
+          <!--subscribe to the newsletter-->
           <div class="subscribe-box">
             <h3 class="subscribe-title">Підпишіться на розсилку</h3>
             <form>
-              <input type="email" name="email" placeholder="E-mail" />
-              <button type="submit">Підписатися</button>
+              <input
+                class="subscribe-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              <button class="subscribe-submit" type="submit">
+                Підписатися
+                <svg class="subscribe-icon">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
             </form>
           </div>
         </div>
       </address>
     </footer>
+    <!--js script-->
     <script src="./js/modal.js"></script>
   </body>
 </html>
