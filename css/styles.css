@@ -674,6 +674,7 @@ ul {
 
 .join-in-box {
   margin-top: 72px;
+  margin-right: 93px;
 }
 
 .join-in-title {
@@ -686,6 +687,7 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .join-in-list {
@@ -723,6 +725,22 @@ ul {
   height: 20px;
 }
 
+.subscribe-box {
+  margin-top: 72px;
+}
+
+.subscribe-title {
+  color: var(--primary-white-color);
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
 /* окончание футера */
 
 /* страница портфолио */
