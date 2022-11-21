@@ -79,34 +79,50 @@
                 <use href="./images/icons.svg#icon-modal-x"></use>
               </svg>
             </button>
-            <h3>Залиште свої дані, ми вам передзвонимо</h3>
+
+            <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
+
             <form action="">
-              <label>
-                Ім'я
-                <input type="text" name="username" />
-              </label>
-              <label>
-                Телефон
-                <input type="tel" name="phone_number" />
-              </label>
-              <label>
-                Пошта
-                <input type="email" name="email" />
-              </label>
-              <label>
-                Коментар
+              <div class="modal-container">
+                <label class="modal-contacts">Ім'я</label>
+                <input class="modal-type-field" type="text" name="username" />
+              </div>
+              <div class="modal-container">
+                <label class="modal-contacts">Телефон</label>
+                <input
+                  class="modal-type-field"
+                  type="tel"
+                  name="phone_number"
+                />
+              </div>
+              <div class="modal-container">
+                <label class="modal-contacts">Пошта</label>
+                <input class="modal-type-field" type="email" name="email" />
+              </div>
+              <div class="modal-container-comment">
+                <label class="modal-comment">Коментар</label>
                 <textarea
+                  class="modal-text"
                   name="feedback"
                   rows=""
                   placeholder="Введіть текст"
                 ></textarea>
-              </label>
-              <label>
-                <input type="checkbox" name="mailing-list" value="accept" />
-                Погоджуюся з розсилкою та приймаю
+              </div>
+              <div class="modal-container-links">
+                <input
+                  class="modal-checkbox"
+                  type="checkbox"
+                  name="mailing-list"
+                  value="accept"
+                />
+                <label> Погоджуюся з розсилкою та приймаю </label>
                 <a href="">Умови договору</a>
-              </label>
-              <button type="submit">Відправити</button>
+              </div>
+              <div class="modal-container-btn">
+                <button class="modal-btn-submit" type="submit">
+                  Відправити
+                </button>
+              </div>
             </form>
           </div>
         </div>
