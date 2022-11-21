@@ -79,26 +79,26 @@
                 <use href="./images/icons.svg#icon-modal-x"></use>
               </svg>
             </button>
-
             <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
-
             <form action="">
-              <div class="modal-container">
-                <label class="modal-contacts">Ім'я</label>
-                <input class="modal-type-field" type="text" name="username" />
-              </div>
-              <div class="modal-container">
-                <label class="modal-contacts">Телефон</label>
-                <input
-                  class="modal-type-field"
-                  type="tel"
-                  name="phone_number"
-                />
-              </div>
-              <div class="modal-container">
-                <label class="modal-contacts">Пошта</label>
-                <input class="modal-type-field" type="email" name="email" />
-              </div>
+              <ul>
+                <li class="modal-container">
+                  <label class="modal-contacts">Ім'я</label>
+                  <input class="modal-type-field" type="text" name="username" />
+                </li>
+                <li class="modal-container">
+                  <label class="modal-contacts">Телефон</label>
+                  <input
+                    class="modal-type-field"
+                    type="tel"
+                    name="phone_number"
+                  />
+                </li>
+                <li class="modal-container">
+                  <label class="modal-contacts">Пошта</label>
+                  <input class="modal-type-field" type="email" name="email" />
+                </li>
+              </ul>
               <div class="modal-container-comment">
                 <label class="modal-comment">Коментар</label>
                 <textarea
@@ -115,8 +115,10 @@
                   name="mailing-list"
                   value="accept"
                 />
-                <label> Погоджуюся з розсилкою та приймаю </label>
-                <a href="">Умови договору</a>
+                <label class="modal-link-accept">
+                  Погоджуюся з розсилкою та приймаю
+                </label>
+                <a class="modal-link-terms" href="">Умови договору</a>
               </div>
               <div class="modal-container-btn">
                 <button class="modal-btn-submit" type="submit">

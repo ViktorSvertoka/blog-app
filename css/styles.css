@@ -344,6 +344,10 @@ ul {
   margin-top: 0;
   margin-bottom: 12px;
   text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #212121;
 }
 
 .modal-container {
@@ -352,27 +356,35 @@ ul {
   margin-bottom: 28px;
 }
 
-.modal-container:last-child {
-  margin-bottom: 0;
-}
-
 .modal-contacts {
   margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  color: #757575;
 }
 
 .modal-type-field {
   width: 448px;
   height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 .modal-comment {
   margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  color: #757575;
 }
 
 .modal-text {
   width: 448px;
   height: 120px;
   padding: 12px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 .modal-container-comment {
@@ -394,10 +406,42 @@ ul {
   margin-right: 8px;
 }
 
+.modal-link-accept {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+  margin-right: 8px;
+}
+
+.modal-link-terms {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #2196f3;
+}
+
 .modal-container-btn {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.modal-btn-submit {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  border: transparent;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  letter-spacing: 0.06em;
 }
 
 /* <!-- company advantages --> */
