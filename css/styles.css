@@ -479,6 +479,10 @@ ul {
 
 .modal-checkbox {
   margin-right: 8px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .modal-link-accept {
