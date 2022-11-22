@@ -182,3 +182,10 @@ https://jakearchibald.github.io/svgomg/
 Для оптимізації зображень використовуй сервіс squoosh. - https://squoosh.app/
 
 ---
+
+Визуально скрыть элемент
+
+position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding:
+0; clip: rect(0 0 0 0); overflow: hidden;
+
+---
