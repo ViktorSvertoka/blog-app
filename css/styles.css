@@ -375,6 +375,10 @@ ul {
   outline: none;
 }
 
+.modal-type-field:focus {
+  border-color: var(--accent-color);
+}
+
 .field-name {
   display: flex;
   flex-direction: column;
@@ -392,7 +396,6 @@ ul {
 
 .field-name:focus-within > .modal-icon-name {
   border-color: var(--accent-color);
-  box-shadow: none;
   fill: var(--accent-color);
 }
 
@@ -413,7 +416,6 @@ ul {
 
 .field-tel:focus-within > .modal-icon-tel {
   border-color: var(--accent-color);
-  box-shadow: none;
   fill: var(--accent-color);
 }
 
@@ -434,7 +436,6 @@ ul {
 
 .field-email:focus-within > .modal-icon-email {
   border-color: var(--accent-color);
-  box-shadow: none;
   fill: var(--accent-color);
 }
 
