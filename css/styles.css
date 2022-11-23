@@ -979,6 +979,7 @@ ul {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  outline: none;
 }
 
 .subscribe-submit {
