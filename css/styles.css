@@ -315,7 +315,7 @@ ul {
   padding: 40px;
 }
 
-.modal-button {
+.modal-button-close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -335,7 +335,7 @@ ul {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover {
+.modal-button-close:hover {
   fill: var(--accent-color);
 }
 
@@ -378,6 +378,7 @@ ul {
   padding-bottom: 11px;
   outline: none;
   cursor: pointer;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-type-field:focus {
@@ -460,6 +461,7 @@ ul {
   border-radius: 4px;
   color: #757575;
   outline: none;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text:focus-within {
@@ -514,6 +516,7 @@ ul {
   background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-link-terms {
@@ -546,6 +549,8 @@ ul {
   border-radius: 4px;
   letter-spacing: 0.06em;
   margin-top: 30px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* <!-- company advantages --> */
