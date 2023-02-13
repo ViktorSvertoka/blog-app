@@ -71,7 +71,7 @@
 
 ---
 
-10.
+9.
 
 - Головний HTML-файл називається index.html
 
@@ -89,12 +89,12 @@
 
 ---
 
-11. CDN -
+10. CDN -
     https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css
 
 ---
 
-12. .gitignore
+11. .gitignore
 
 ---
 
@@ -224,7 +224,7 @@ typings/
 
 ---
 
-13. .prettierrc.json
+12. .prettierrc.json
 
 ---
 
@@ -234,21 +234,21 @@ typings/
 
 ---
 
-14. Для генерації SVG-спрайту використовуй сервіс Icomoon. - https://icomoon.io/
+13. Для генерації SVG-спрайту використовуй сервіс Icomoon. - https://icomoon.io/
 
 ---
 
-15. Для оптимізації створеного SVG-спрайту використовуй сервіс svgomg. -
+14. Для оптимізації створеного SVG-спрайту використовуй сервіс svgomg. -
     https://jakearchibald.github.io/svgomg/
 
 ---
 
-16. Для оптимізації зображень використовуй сервіс squoosh. -
+15. Для оптимізації зображень використовуй сервіс squoosh. -
     https://squoosh.app/
 
 ---
 
-17. Визуально скрыть элемент
+16. Визуально скрыть элемент
 
 position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding:
 0; clip: rect(0 0 0 0); overflow: hidden;
