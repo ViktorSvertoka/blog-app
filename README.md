@@ -1,3 +1,5 @@
+**Read in other languages: [Ukrainian](README.md), [English](README.en.md).**
+
 # Домашнє завдання № 6
 
 - Cтвори репозиторій `goit-markup-hw-06`.
